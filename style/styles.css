@@ -19,15 +19,20 @@ nav a{
 }
 .hello_msg{
     font-size: 2cm;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    margin: 0 15px 0 0;
 }
 .block{
     width: 15%;
     position: relative;
-    top: 50px;
     padding: 15px 30px;
     text-align: center;
     background-color: cornflowerblue;
     color: white;
     border: 0;
     font-size: larger;
+    left: 100px;
+    top: 100px;
 }
