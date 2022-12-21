@@ -6,28 +6,36 @@ html{
     padding: 0;
 }
 header{
-    /* border-radius: 0px 15px; */
     box-shadow: 10px 10px 10px darkgrey;
+    margin: 0;
 }
 header,nav{
     position:relative;
-    background-color:#5EBEC4;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0px;
+    background-color:#373833;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.index, nav a{
-    text-decoration: none;
-    padding: 30px;
+.name{
+    color: #FA2742;
+}
+.index{
+    font-size:xx-large;
     font-family: monospace;
-    color: #fdf5df;
+    padding: 30px;
+    color: #E8EAE3;
+}
+nav a{
+    text-decoration: none;
+    padding: 30px 30px 18px 30px;
+    font-family: monospace;
+    color: #E8EAE3;
     font-size: x-large;
 }
 .block:hover,nav a:hover{
     border-collapse: collapse;
-    background-color: #fdf5df;    
-    border-bottom: 4px solid #5EBEC4;
-    color: #5EBEC4;
+    background-color: #E8EAE3;
+    border-bottom: 3px solid #373833;
+    color: #373833;
 }
 .profile_img{
     border-radius: 50%;
@@ -35,20 +43,24 @@ header,nav{
     float: right;
     position: relative;
     top: -200px;
-    left: -350px;
+    left: -200px;
     margin: 0 0 0 15px;
+    margin-right: 0;
     filter: drop-shadow(10px 10px 10px darkgrey);
 }
 .home{
     position: relative;
-    top: 50px
+    top: 50px;
+    left: 50px;
+    margin: 0 auto;
+    width: 1350px;
 }
 .hello_msg{
     font-size: 2cm;
     position: relative;
-    left: 250px;
     top: 50px;
     margin: 0 15px 0 0;
+    color: #373833;
     text-shadow: 10px 10px 10px darkgrey;
 }
 .block{
@@ -56,12 +68,12 @@ header,nav{
     position: relative;
     padding: 15px 30px;
     text-align: center;
-    background-color: #5EBEC4;
-    color: #fdf5df;
+    background-color: #373833;
+    color: #E8EAE3;
     border: 0;
     font-size: larger;
-    left: 250px;
     top: 100px;
     border-radius: 5px 25px;
     box-shadow: 10px 10px 10px darkgrey
 }
+/* #5EBEC4 */
