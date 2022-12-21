@@ -1,3 +1,8 @@
+nav{
+    background-color: cornflowerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .index, nav a{
     text-decoration: none;
     padding: 30px;
@@ -7,7 +12,8 @@
 }
 nav a:hover{
     text-decoration: underline;
-
+    border-collapse: collapse;
+    background-color: snow;
 }
 .profile_img{
     border-radius: 50%;
