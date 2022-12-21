@@ -1,12 +1,13 @@
-nav a{
+.index, nav a{
     text-decoration: none;
     padding: 30px;
     font-family:monospace;
     color: black;
     font-size: x-large;
 }
-.navigation{
-    float:right;
+nav a:hover{
+    text-decoration: underline;
+
 }
 .profile_img{
     border-radius: 50%;
