@@ -5,37 +5,40 @@ html{
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #cdc0a6;
+}
 header{
-    box-shadow: 10px 10px 10px darkgray);
+    box-shadow: 10px 10px 10px darkgray;
     margin: 0;
 }
 header,nav{
     position:relative;
-    background-color:#242338;
+    background-color: #c3baa9;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.name{
-    color: #FA2742;
-}
+/* .name{
+    color: ;
+} */
 .index{
     font-size:xx-large;
     font-family: monospace;
     padding: 30px;
-    color: #E8EAE3;
+    /* color:; */
 }
 nav a{
     text-decoration: none;
     padding: 30px 30px 18px 30px;
     font-family: monospace;
-    color: #E8EAE3;
+    /* color:; */
     font-size: x-large;
 }
 .block:hover, nav a:hover{
     border-collapse: collapse;
-    background-color: #E8EAE3;
-    border-bottom: 3px solid #373833;
-    color: #373833;
+    /* background-color:; */
+    border-bottom: 3px solid ;
+    /* color: ; */
 }
 .profile_img{
     border-radius: 50%;
@@ -60,21 +63,25 @@ nav a{
     position: relative;
     top: 50px;
     margin: 0 15px 0 0;
-    color: #373833;
+    /* color: ; */
     text-shadow: 10px 10px 10px darkgrey;
 }
 .block{
+    text-decoration: none;
     width: 15%;
-    position: relative;
-    padding: 15px 30px;
+    padding: 15px 50px;
     text-align: center;
-    background-color: #373833;
-    color: #E8EAE3;
+    background-color: blueviolet;
+    color: black;
     border: 0;
     font-size: larger;
-    top: 100px;
     border-radius: 5px 25px;
     box-shadow: 10px 10px 10px darkgrey
+}
+.buttons_link{
+    position: relative;
+    text-decoration: none;
+    top: 100px;
 }
 /* #5EBEC4 */
 /* .contacts{
